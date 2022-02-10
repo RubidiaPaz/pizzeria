@@ -1,0 +1,14 @@
+.item-pizza{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    font-weight: bold;
+}
+
+.item-pizza:hover{
+    background-color: rgba(255, 160, 122, 0.75);
+}
+
+.item-pizza.active{
+    background-color: rgba(255, 160, 122, 0.75);
+}
